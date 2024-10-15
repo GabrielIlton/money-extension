@@ -4,6 +4,28 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtension</PackageId>
+    <Version>1.0.0</Version>
+    <!-- <Icon></Icon> -->
+    <License>MIT</License>
+    <Authors>Gabriel Ilton</Authors>
+    <!-- <Company></Company> -->
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https:https://github.com/GabrielIlton/money-extension</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/gabrielilton/money-extension</PackageProjectUrl>
+    <PackageLicenseExpression>MTI</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money:int;decimal;converter</PackageTags>
+    <!-- <ReleaseNotes></ReleaseNotes> -->
+    <Title>MoneyExtension</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../Media/icon.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
 
 </Project>
